@@ -1,8 +1,7 @@
 body {
-	/*background-color: #FFE87C;*/
-	background-image: url(images/bg.png);
+	background-image: url(bg.png);
 	background-repeat: repeat;
-}
+} 
 
 h1 {
 	font-family: Verdana;
@@ -18,17 +17,4 @@ p {
 
 a {
 	font-family: sans-serif;
-}
-
-div.line {
-	text-align: center;
-}
-
-div.day {
-	display: inline-block;
-}
-
-img {
-	width: 200px;
-	height: 200px;
 }
