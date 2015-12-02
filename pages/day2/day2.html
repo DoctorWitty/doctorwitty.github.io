@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="day2.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="day2.js"></script>
+	<title>Day 2</title>
+</head>
+<body>
+	<h1>Joke time!</h1>
+
+	<div id="area">
+		<p>Knock Knock!</p>
+		<div id="textArea"></div>		
+		<div id="buttonArea">
+			<button id="button1" class="button"><span>Who's there?</span></button>
+			<button id="button2" class="button"><span>Hmm...</span></button>
+			<button id="button3" class="button"><span>No, I'm useless.</span></button>
+			<form id="form1">
+				<input type="text" name="whoThere" onKeyPress="if (event.which == 13) return false;">
+				<button id="submitButton" class="button" type="button"><span>Respond!</span></button>
+			</form>
+			<form id="form2">
+				<input type="text" name="punchline" onKeyPress="if (event.which == 13) return false;">
+				<button id="submitButton2" class="button" type="button"><span>Finish the joke!</span></button>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
