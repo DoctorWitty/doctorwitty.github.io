@@ -1,0 +1,33 @@
+body {
+	background-image: url("../images/bg.png");
+	background-repeat: repeat;
+} 
+
+h1 {
+	font-family: Verdana;
+	color: red;
+	text-align: center;
+}
+
+a {
+	font-family: sans-serif;
+}
+
+#div img {
+	position: relative; 
+	float: left;
+}
+
+div {
+	width: 100%;
+	height: 100%;
+}
+
+div.a {
+width: 5em;
+height: 5em;
+ background-image: url("http://www.automationheroes.com/wp-content/uploads/2013/11/tumblr_static_cheese_205_1362800142.jpg");
+ background-size: 100%;
+position:fixed;
+    
+}
