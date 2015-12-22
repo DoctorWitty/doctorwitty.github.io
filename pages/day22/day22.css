@@ -1,0 +1,44 @@
+body {
+	background-image: url("../images/bg.png");
+	background-repeat: repeat;
+} 
+
+h1 {
+	font-family: Verdana;
+	color: red;
+	text-align: center;
+}
+
+a {
+	font-family: sans-serif;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#container {
+	margin: 0 auto;
+	width: 530px;
+}
+
+div div {
+	width: 528.5px;
+	height: 512px;
+	border: 1px solid black;
+	color: white;
+	text-align: center;
+	display: inline-block;
+}
+
+.hoverButton {
+	border: 5px solid yellow;
+	cursor: pointer;
+}
+
+#monkey {
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Portrait_of_a_Proboscis_Monkey.jpg/1057px-Portrait_of_a_Proboscis_Monkey.jpg");
+	background-size: 100%;
+}
